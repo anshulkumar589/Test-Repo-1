@@ -11,7 +11,9 @@ var reqGet = https.request(optionsget, function(res) {
       console.info('\n\nCall completed');
   });
 });
+
 reqGet.end();
+
 reqGet.on('error', function(e) {
   console.error(e);
 });
