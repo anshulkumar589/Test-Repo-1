@@ -1,0 +1,6 @@
+{
+  "name": "test",
+  "dependencies": {
+    "ddp": "0.12.0"
+  }
+}
